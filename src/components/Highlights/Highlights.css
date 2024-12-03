@@ -1,0 +1,35 @@
+.hgh-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 870px;
+    padding: 0;
+}
+
+.hgh-item {
+    background-color: #282c2d;
+    width: 184px;
+    padding: 10px 10px 5px 10px;
+    border-radius: 15px;
+}
+
+.hgh-item-img {
+    margin-top: 10px;
+}
+
+.hgh-item-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hgh-item-title {
+    color: #858786;
+    font-size: 15px;
+}
+
+.hgh-item-info {
+    font-size: 30px;
+    margin-top: 20px;
+}

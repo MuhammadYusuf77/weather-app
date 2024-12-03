@@ -1,0 +1,22 @@
+.main-info {
+    max-width: 310px;
+    border-radius: 15px;
+    background-color: #282c2d;
+    padding: 20px 15px;
+    text-align: left;
+    margin-top: 130px;
+}
+
+.temp {
+    font-size: 35px;
+}
+
+.temp-box {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.text {
+    color: #858786;
+}

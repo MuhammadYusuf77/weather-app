@@ -1,0 +1,32 @@
+.at-list {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 15px;
+    padding-left: 0px;
+    margin-top: 0;
+}
+
+.at-item {
+    background-color: #282c2d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 20px;
+    border-radius: 20px;
+    padding-top: 0;
+}
+
+.at-item-temp {
+    margin-top: 10px
+}
+
+.at-item-date {
+    font-size: 15px;
+}
+
+.at-item-time {
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+}

@@ -1,0 +1,38 @@
+.forecast {
+    border-radius: 15px;
+    width: 310px;
+    background-color: #282c2d;
+    margin-top: 15px;
+    padding: 0 15px;
+}
+
+.f-title {
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+.forecast-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.forecast-item {
+    display: flex;
+    align-items: center;
+}
+
+.f-date {
+    color: #858786;
+}
+
+.f-day {
+    color: #858786;
+}
+
+.f-date {
+    margin: 0 35px 0 25px;
+}
